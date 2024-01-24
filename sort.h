@@ -41,5 +41,6 @@ void count_sort_LSD(int *array, size_t size, size_t lsd);
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
                 size_t back);
+int get_max(int *array, int size);
 
 #endif /* SORT_H */
