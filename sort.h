@@ -38,5 +38,8 @@ void quick_sort_hoare(int *array, size_t size);
 void b_sort(int *array, int low, int count, int dir, size_t size);
 void swapint(int *l, int *r);
 void count_sort_LSD(int *array, size_t size, size_t lsd);
+void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+                size_t back);
 
 #endif /* SORT_H */
