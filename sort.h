@@ -35,5 +35,8 @@ void swap(int *a, int *b);
 int partition(int *array, int low, int high, size_t size);
 void hoare_qsort(int *array, int low, int high, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void b_sort(int *array, int low, int count, int dir, size_t size);
+void swapint(int *l, int *r);
+void count_sort_LSD(int *array, size_t size, size_t lsd);
 
 #endif /* SORT_H */
